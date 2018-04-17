@@ -1,0 +1,221 @@
+
+      Kursnet-Nutzungsbedingungen 
+
+HINWEISE FÜR BILDUNGSANBIETER ZUR NUTZUNG DER DATENBANK KURSNET DER BUNDESAGENTUR FÜR ARBEIT (BA) - NUTZUNGSBEDINGUNGEN (Stand: 08.05.2017)
+
+Version: NB 3.0
+
+
+EINLEITUNG
+
+Mit dem Portal KURSNET bietet die Bundesagentur für Arbeit (BA) online allen Akteuren und Interessierten am Aus-und Weiterbildungsmarkt eine aktuelle und umfassende Informationsquelle und einen Überblick über die dazugehörigen Bildungsmöglichkeiten, die durch Bildungsanbieter selbst und eigenverantwortlich erfasst und in KURSNET veröffentlicht werden. Die vollumfängliche Nutzung von KURSNET ist sowohl für Bildungsanbieter als auch für Bildungssuchende kostenlos.
+
+
+§ 1 Aufnahmekriterien
+
+Aufgenommen werden Aus- und Weiterbildungsmaßnahmen mit Berufsbezug und freiem Zugang, die mindestens vier Unterrichtsstunden bzw. drei Zeitstunden umfassen sowie die in diesen Nutzungsbedingungen im Weiteren genannten Kriterien erfüllen. Neben deutschen Bildungsangeboten werden dabei auch europäische Bildungsangebote aufgenommen, sofern die Unterrichtssprache Deutsch ist oder es sich um ein Angebot eines Anrainer-staates handelt.
+
+Bildungsanbieter sind z. B. Bildungs-institutionen, Bildungseinrichtungen, Bildungsträger, Bildungsveranstalter, Organisationen oder private Personen, die berufliche Aus- und Weiterbildungsmaßnahmen im Sinne dieser Nutzungs-bedingungen durchführen und diese für Bildungssuchende in KURSNET zu Recherche-Zwecken als Bildungsangebote zur Verfügung stellen.
+
+Die Nutzung des Portals als Bildungsanbieter erfordert eine vorherige Registrierung, die erst dann erfolgen kann und nur dann wirksam ist, wenn die Nutzungsbedingungen und die Datenschutzerklärung gelesen und akzeptiert wurden.
+
+
+§ 2 Registrierung als Bildungsanbieter
+ 
+Zur Registrierung als Bildungsanbieter und zur Veröffentlichung von Bildungsangeboten in KURSNET ist jeder Bildungsanbieter berechtigt, dessen Bildungsangebote die in diesen Nutzungsbedingungen genannten Kriterien erfüllen.
+Bei der Registrierung sind alle Pflichtfelder (Name, Vorname, Anschrift, Ansprechpartner etc.) korrekt auszufüllen. Die Angabe des Postfachs anstelle der postalischen Andresse ist unzulässig und kann zur Deaktivierung der Registrierung führen Die Angaben müssen der Wahrheit entsprechen. Bei falschen Angaben behält sich die BA das Recht zur Löschung vor.
+Der Bildungsanbieter ist verpflichtet, seine bei der Registrierung getätigten Angaben auf dem aktuellen Stand zu halten und im Fall der Änderung unverzüglich zu aktualisieren.
+
+Darüber hinaus muss ein Benutzername festgelegt und ein selbst gewähltes Kennwort angegeben werden (vgl. dazu § 6).
+
+Die Registrierung wird erst nach Eingabe der PIN abgeschlossen. Die PIN wird auf dem Postweg zugestellt und muss innerhalb einer Frist von zwei Wochen nach Übersendung durch den Bildungsanbieter persönlich aktiviert werden.
+Wird diese Frist nicht eingehalten erfolgt die automatische Löschung angelegten Accounts.
+
+Pro Bildungsanbieter ist grundsätzlich nur eine Registrierung zulässig. Die Anlage mehrerer Accounts durch einen Bildungsanbieter muss im Vorfeld mit der BA per E-Mail KURSNET@arbeitsagentur.de abgestimmt werden.  Weitere Accounts eines Bildungsanbieters, die ohne Absprache angelegt wurden, werden von der BA gelöscht.
+
+Registrierte Accounts, die länger als zwölf Monate nicht genutzt werden, werden von der BA gelöscht.
+
+
+§ 3 Unzulässige Bildungsangebote
+
+Bildungsangebote, die inhaltlich gegen Rechtsvorschriften oder gegen Rechte Dritter (z.B. Diskriminierungsverbote, Vorschriften des Allgemeinen Gleich- behandlungsgesetzes, Vorschriften des Gesetzes gegen den unlauteren Wettbewerb, Persönlichkeitsrechte) oder in sonstiger Weise gegen die guten Sitten verstoßen, dürfen in KURSNET nicht eingestellt werden.
+
+Maßnahmen zur Aktivierung und beruflichen Eingliederung nach § 45 SGB III (Maßnahmen, die über den Aktivierungs- und Vermittlungsgutschein gefördert werden) sind für die Veröffentlichung in KURSNET nicht vorgesehen und dürfen nicht übertragen werden.
+
+Duale Ausbildungen mit Durchführung in Betrieb und Berufsschule sowie Praktika und Prüfungen sind von der Aufnahme in KURSNET ausgeschlossen (diese sind in der JOBBÖRSE der BA unter http://jobboerse.arbeitsagentur.de/  einzutragen).
+
+Angebote, die der Stellenbesetzung oder Personalgewinnung im Rahmen der privaten Arbeitsvermittlung dienen, dürfen in KURSNET nicht eingestellt werden.
+
+ Hinweise auf Messen oder sonstige Veranstaltungen sowie auf Lern- oder Werbematerial wie z.B. Bücher, Hörbücher, Videos und weiteres audio- visuelles Material stellen keine Bildungsangebote im Sinne dieser Nutzungs- bedingungen dar und dürfen daher nicht in KURSNET eingestellt werden.
+
+Die Veröffentlichung inhaltlich identischer Bildungsangebote in einem Account ist untersagt. Ebenso wenig erlaubt ist das Einstellen eines identischen Bildungsangebotes im mehreren Accounts.
+
+
+§ 4 Unzulässige Inhalte  
+
+Die Eintragung nicht aktueller, falscher, ungenauer, irreführender, nicht plausibler, täuschender, unvollständiger oder rechtswidriger Angaben ist grundsätzlich nicht zulässig.
+
+Aussagen, die ganz oder teilweise bloßen Werbezwecken dienen, sind nicht zulässig.
+
+Eingaben, die keine konkreten Informationen über Bildungsangebote enthalten, sind nicht zulässig.
+
+Die Maßnahmenummer einer Bildungsveranstaltung, die nach AZAV zertifiziert und für das Bildungsgutschein-Verfahren zugelassen wurde, darf in KURSNET nicht eingetragen werden.
+
+ Die Angabe des vollen oder abgekürzten Bildungsanbieternamens (Bezeichnung der Bildungseinrichtung) in einem nicht dafür vorgesehenen Feld (z. B. im Titel, Inhalten oder als Suchwort) ist nicht zulässig.
+
+Die Angabe von Unterrichtsform, Veranstaltungsform, Veranstaltungsverlauf Veranstaltungsdauer und Veranstaltungsort in der Bezeichnung des Bildungsangebotes (Titel) ist nicht zulässig.
+
+
+§ 5 Qualität der veröffentlichten Bildungsangebote
+
+Die Zulässigkeitsvoraussetzungen sind insbesondere in den §§ 1, 3 und 4 dieser Nutzungsbedingungen sowie im Redaktionshandbuch unter http://kursnet-finden.arbeitsagentur.de/kurs/portal/bildungsanbieter.do definiert und verbindlich vorgegeben.
+
+Bei der Eingabe der Bildungsangebote sind die Pflichtfelder so auszufüllen, dass die Suchenden eindeutige und unmissverständliche Informationen zum Inhalt und sonstigen relevanten Angaben zum Bildungsangebot erhalten.
+
+Zu vermeiden sind unbekannte Abkürzungen oder Fachbegriffe sowie unlogische, bedeutungslose Zeichenreihen.
+
+Angaben wie z. B. „Auf Anfrage“ dürfen nicht inflationär in mehreren Feldern getätigt werden. Einträge wie z. B. „unbekannt“ oder „keine Angabe möglich“ sind zu vermeiden.
+
+
+§ 6 Eingabe und Schutz des Kennwortes
+
+Das vom Bildungsanbieter bei seiner Registrierung zu wählende Kennwort muss mindestens acht Zeichen umfassen und aus Groß-, Kleinbuchstaben sowie Ziffern bestehen.
+
+Der Bildungsanbieter ist für seine Zugangsdaten (Benutzername und Kennwort) selbst verantwortlich und hat sein Konto durch gängige Sicherheitsmaßnahmen (Passwortstärke, Geheimhaltung etc.) zu schützen. Die Änderung des Kennwortes obliegt dem Bildungsanbieter und ist verpflichtend, wenn dieses Dritten bekannt geworden ist.
+
+Der Account wird automatisch gesperrt, sofern das Kennwort sechsmal hintereinander falsch eingegeben wird. Ein gesperrter Account kann durch die BA auf Wunsch des Bildungsanbieters entsperrt werden.
+
+
+§ 7 Dateneingabe und Datenpflege von Bildungsangeboten durch die Bildungsanbieter
+
+
+Die Eingabe und Datenpflege der Bildungsangebote durch die Bildungsanbieter ist kostenfrei und auf zwei Wegen möglich:
+
+direkte Eingabe und Pflege durch den Bildungsanbieter über die von der BA bereitgestellte Online-Eingabe-Plattform
+
+Daten-Upload via XML aus der eigenen Datenbank des Bildungsanbieters (kein Support durch die BA)
+ 
+ 
+§ 8 Redaktionelle Erfassung und Aktualisierung von Bildungsangeboten durch den KURSNET-Eingabeservice
+
+Die redaktionelle Erfassung und Aktualisierung von bestimmten rechtlich geregelten Bildungsangeboten steht zur Verfügung und ist kostenfrei. Als rechtlich geregelte Bildungsangebote werden grundsätzlich erfasst. 
+Aus- und Weiterbildungsangebote (geregelt durch Bundes- oder   Landesgesetze)
+Studienangebote (geregelt durch Bologna-Erklärung)
+Bei diesen Bildungsgängen sind z. B. Bildungsinhalte, Dauer, Zugangsvoraussetzungen, Abschlussbezeichnungen und erworbene Berechtigungen durch rechtliche Regelungen vorgegeben 
+
+Die KURSNET-Redaktion übernimmt die Eingabe und Pflege rechtlich geregelter Bildungsangebote (vgl. Abs. 1), wenn der Bildungsanbieter dies ausdrücklich durch Beauftragung wünscht. Die Beauftragung kann per E-Mail oder postalisch erteilt werden.
+
+Für die o. g. rechtlich geregelten Bildungsangebote, die infolge der Beauftragung über die KURSNET-Redaktion erfasst und gepflegt werden, wird ein extra Account angelegt, in dem die KURSNET-Redaktion die Eingabe und Überarbeitung vornimmt.
+In diesem Account dürfen sich nur rechtlich geregelte Angebote befinden, die die Voraussetzungen der redaktionellen Erfassung erfüllen. Der Bildungsanbieter hat auf diesen Account keinen Zugriff.
+
+Bildungsangebote, die zur redaktionellen Erfassung beauftragt wurden, dürfen nicht durch den Bildungsanbieter parallel in anderen Accounts gepflegt werden.
+
+Der beauftragende Bildungsanbieter ist für die Bereitstellung des Informationsmaterials zu den zu erfassenden Bildungsangeboten (Flyer, Prospekte, Kataloge, Verweis auf die Homepage etc.) verantwortlich und stellt sicher, dass er in lizenzrechtlicher Hinsicht zur Veröffentlichung in KURSNET befugt ist. Die Zustellung kann per E-Mail oder postalisch geschehen. Die redaktionelle Erfassung von Bildungsangeboten erfolgt auf Basis der vorliegenden Informationen.
+
+Die KURSNET-Redaktion ist berechtigt, jedes Bildungsangebot in sprachlicher Hinsicht zu korrigieren und entsprechend den Qualitätsanforderungen zu systematisieren sowie an die Feldstruktur der Datenbank anzupassen.
+
+Die KURSNET-Redaktion ist darüber hinaus berechtigt, die Aktualisierung bereits bestehender rechtlich geregelter Bildungsangebote eines der ihr überlassenen Accounts ohne Aktualisierungsbeauftragung zu übernehmen.
+
+Bildungsanbieter, die an der Fortsetzung der redaktionellen Pflege rechtlich geregelter Bildungsangebote nicht mehr interessiert sind oder diese in Eigenregie durchführen wollen, müssen die KURSNET-Redaktion darüber informieren. Der Verfahrenswechsel muss beauftragt werden.
+
+
+§ 9 Urheberrechte 
+
+Die Nutzungsrechte an der Datenbank KURSNET in ihrer Gesamtheit liegen ausschließlich bei der BA. Die BA untersagt insbesondere:
+
+    die gesamte oder teilweise Verwertung, Vervielfältigung, Verbreitung, Ausstellung, Aufführung, Vorführung, öffentliche Zugänglichmachung der Datenbank KURSNET in ihrer Gesamtheit oder einzelner Inhalte daraus, egal zu welchem Zweck
+    grundsätzlich jegliche Verwendung des Logos der Bundesagentur für Arbeit oder des Logos des KURSNET-Portals
+Die Bildungsanbieter räumen der BA frei von Rechten Dritter das einfache, räumlich und zeitlich unbeschränkte Nutzungsrecht an den von ihnen eingestellten Inhalten, Angeboten und Angaben zur Veröffentlichung und Speicherung in der Datenbank KURSNET ein zu dem Zweck, über berufliche Aus- und Weiterbildungsmöglichkeiten zu informieren.
+Hiervon nicht umfasst ist das Recht der BA zur Änderung, Ergänzung, Bearbeitung oder Umgestaltung der Inhalte, der Angebote und der Angaben, es sei denn, eine Bearbeitung oder Umgestaltung ist aus qualitätssichernden, redaktionellen oder technischen Gründen erforderlich.
+
+Die BA ist berechtigt, die Datenbank KURSNET und deren Inhalte als Basis- Datenquelle für weitere Online-Anwendungen der BA zu nutzen. Die BA ist auch dazu berechtigt, ihren Kooperationspartnern Rechte an der Datenbank KURSNET und deren Inhalten einzuräumen, soweit dies dem Ziel dient, noch umfassender über berufliche Aus- und Weiterbildungsmöglichkeiten zu informieren.
+
+Die BA ist berechtigt, anderen Webseitenbetreibern eine direkte Verlinkung auf die Datenbank KURSNET (Originalversion) zu gestatten.
+
+
+§ 10 Garantie- und Gewährleistungsausschluss
+
+Die BA übernimmt keine Gewährleistung und keine Garantie für die Richtigkeit, Vollständigkeit, Rechtmäßigkeit, Zulässigkeit oder Aktualität von Daten, die von den Bildungsanbietern selbst eingestellt wurden oder zur Datenpflege beauftragt wurden (vgl. §§ 7 ff. Telemediengesetz).
+
+Die BA übernimmt keine Gewährleistung und keine Garantie für die Richtigkeit, Vollständigkeit, Rechtmäßigkeit oder Zulässigkeit der Inhalte von Datenbanken Dritter, die in der Datenbank KURSNET aufgenommen sind.
+
+Entstehen Situationen, die die Nutzung der Datenbank KURSNET aus z. B. technischen, redaktionellen oder fachlichen Gründen vorübergehend behindern oder einschränken, ist die BA um eine rasche Behebung des Problems bemüht; die Geltendmachung von Ansprüchen gegen die BA ist jedoch ausgeschlossen.
+
+
+§ 11 Haftung
+
+Die Haftung richtet sich nach den gesetzlichen Bestimmungen, soweit es durch Besonderheiten in diesen Nutzungsbedingungen nicht anders geregelt ist.
+
+Für die Richtigkeit, Vollständigkeit, Rechtmäßigkeit, Zulässigkeit und Aktualität der in die Datenbank KURSNET eingestellten Angaben trägt der Bildungsanbieter die ausschließliche Verantwortung.
+
+Die BA haftet nicht für die Inhalte von anderen Websites, die mit der Datenbank KURSNET verlinkt sind. Die BA macht sich die Inhalte dieser Seiten nicht zu Eigen und übernimmt hierfür keine Verantwortung.
+
+Die BA übernimmt keine Verantwortung für eine unzulässige Nutzung der Inhalte der Datenbank KURSNET seitens Dritter. Dazu gehört insbesondere jede sachfremde Kontaktaufnahme, z. B. die Zusendung unerwünschter Werbung oder SPAM-E-Mails oder die Veröffentlichung in fremden Adressdatenbanken.
+
+Die BA übernimmt soweit das Gesetz nichts anderes bestimmt keine Haftung für direkte oder indirekte Schäden, die durch die Nutzung der Datenbank KURSNET entstehen. Insoweit übernimmt die BA insbesondere keine Haftung für Schäden, die entweder durch die Inanspruchnahme oder Verwendung falscher, unvollständiger, unzulässiger, rechtswidriger und veralteter Inhalte entstanden sind oder Dritte durch Computerviren oder sonstige schädigende Mechanismen, z. B. bei Zusendung unverlangter E-Mails eingebracht haben.
+
+Schäden, die aufgrund unsachgemäßer Nutzung der Datenbank KURSNET durch Bildungsanbieter, seine Mitarbeitern oder seine sonstigen Auftragnehmer gegenüber Dritten verursacht werden, gehen nicht zu Lasten der BA; insofern stellt der Nutzer die BA von sämtlichen Forderungen und Schadenersatzansprüchen Dritter frei.
+
+Die BA widerspricht der Nutzung der in KURSNET eingestellten Daten zu Werbezwecken gemäß §§ 28, 29 Bundesdatenschutzgesetz und weist darauf hin, dass unverlangte E-Mail-Werbung rechtswidrig ist.
+
+
+§ 12 Qualitätssicherungsmaßnahmen der BA
+
+Für die Qualität der veröffentlichten Bildungsangebote ist ausschließlich der Bildungsanbieter verantwortlich. Die BA überprüft die eingestellten Bildungsangebote grundsätzlich nicht vollumfänglich.Die BA überprüft die Bildungsangebote kursorisch auf die Einhaltung der Mindestqualitätsstandards hin. Über das Ergebnis wird der Bildungsanbieter per E-Mail (ggf. mit Überarbeitungs-Hinweisen) informiert.
+Der Bildungsanbieter ist verpflichtet seine restlichen Bildungsangebote entsprechend zu korrigieren bzw. aus dem Datenbestand zu entfernen.
+
+Werden Inhalte eingestellt, die gegen die Nutzungsbedingungen verstoßen oder offensichtlich nicht mehr aktuell sind, behält sich die BA das Recht vor, die betroffenen Bildungsangebote vorübergehend zu sperren, die eingestellten Bildungsangebote zu löschen bzw. den gesamten Account auch ohne vorherige Benachrichtigung zu deaktivieren oder zu löschen.
+
+Werden wiederholt Inhalte eingestellt, die in der Vergangenheit von der Veröffentlichung ausgeschlossen wurden, ist die BA auch ohne vorherige Benachrichtigung zur sofortigen Deaktivierung oder Löschung des Accounts befugt.
+
+Wiederkehrende Verstöße gegen die Nutzungsbedingungen können zum dauerhaften Ausschluss von der Nutzung der Datenbank führen.
+
+Werden im Rahmen des Übertragungsverfahrens zu große Datenvolumina oder nahezu identische Inhalte gesendet, behält sich die BA vor, die Aktualisierungsmodalitäten zu reglementieren oder den betroffenen Account zu deaktivieren.
+
+Die technische Qualitätssicherung unterbindet die Veröffentlichung von Bildungsangeboten, deren Titel den Mindeststandards nicht entspricht.
+
+Eine automatische Löschroutine entfernt täglich alle Veranstaltungstermine, deren Ablaufdatum oder Ende-Datum 180 Tage in der Vergangenheit liegen und anschließend alle Bildungsangebote, die keine Veranstaltungstermine mehr haben.
+
+Die Aktualität der Bildungsangebote in der Datenbank wird automatisch durch regelmäßige Bestandsdatenprüfungen abgefragt, mit dem Ziel, Bildungsanbieter per E-Mail über Aktualisierungsbedarf zu informieren. Accounts von Bildungsanbietern, die nach der zweiten Erinnerung keine Aktualisierung vornehmen, werden anschließend automatisch gelöscht.
+
+Beinhaltet eine Lieferung eines Bildungsanbieters mehrere Bildungsangebote, die die Mindeststandards nicht erfüllen, erfolgt eine automatische Ablehnung aller Bildungsangebote aus dieser Lieferung. Über den Ablehnungsgrund wird der Bildungsanbieter per E-Mail informiert.
+
+Im Rahmen der Qualitätsüberprüfung werden keine intensiven redaktionellen  Korrekturen vorgenommen. Die Überarbeitung findet ggf. nur in Feldern statt,  deren korrekte Belegung fachlich unabdingbar ist.
+Dazu zählen z.B.:
+
+Systematisierung, Suchwortvergabe und Zuordnung der Bildungsart.
+
+Inhaltliche Änderungen werden nicht vorgenommen.
+
+So werden beispielsweise Rechtschreibung, Grammatik und Formatierung grundsätzlich nicht korrigiert.
+
+Bildungsangebote, die korrigiert werden (vgl. unter Abs. 10) werden veröffentlicht. Der Bildungsanbieter wird per E-Mail informiert und ist verpflichtet, seinen Bildungsangebot-Bestand entsprechend der Korrektur-Mail zu überprüfen und ggf. anzupassen.
+
+Bildungsangebote, die die Mindeststandards (ohne Korrektur der BA) erfüllen, werden veröffentlicht und gelten für den Bildungsanbieter als Orientierungshilfe bei der künftigen Erfassung.
+
+
+§ 13  Veröffentlichung von Bildungsangeboten- Widerruf 
+
+Mit der Registrierung in KURSNET erklärt sich der Bildungsanbieter damit einverstanden, dass seine Bildungsangebote veröffentlicht werden.
+
+Der Bildungsanbieter hat darauf zu achten, nur Daten anzugeben, die er der Öffentlichkeit zugänglich machen möchte. Die BA übernimmt keine Verantwortung für eine unzulässige Nutzung der Inhalte der Datenbank KURSNET seitens Dritter.
+
+Der Bildungsanbieter kann sein Einverständnis mit den Nutzungsbedingungen jederzeit mit Wirkung für die Zukunft widerrufen mit der Folge, dass seine Bildungsangebote aus KURSNET gelöscht werden.
+
+Die Zustimmung zu diesen Nutzungsbedingungen wird protokolliert.
+
+
+§ 14 Änderungsvorbehalt
+
+Die BA ist berechtigt, die Datenbank KURSNET jederzeit ganz oder teilweise ohne Angabe von Gründen zu ändern oder einzustellen. Ansprüche auf Änderung, Erweiterung oder Fortbestand können gegen die BA nicht geltend gemacht werden.
+
+Änderungen dieser Nutzungsbedingungen bleiben vorbehalten.
+
+Auf Änderungen dieser Nutzungsbedingungen oder der Datenschutzerklärung wird auf der Login-Seite hingewiesen. Jeder bereits registrierte Bildungsanbieter wird nach dem Login dazu aufgefordert, seine Zustimmung zu den geänderten Nutzungsbedingungen oder seine Einwilligung in die geänderte Datenschutzerklärung erneut zu erteilen. Solange keine erneute Zustimmung oder Einwilligung vorliegt, hat dies direkten Einfluss auf die Veröffentlichung der Einträge in KURSNET und führt zum Deaktivieren des Bildungsanbieter-Accounts. Die Aktivierung des Accounts und somit die erneute Veröffentlichung der Daten erfolgt automatisch nach Bestätigung der neuen Version der Nutzungsbedingungen und/ oder der Datenschutzerklärung.
+
+
+§ 15 Gerichtsstand
+
+
+ Die Nutzung der Datenbank KURSNET unterliegt deutschem Recht. Gerichtsstand ist Nürnberg.
+

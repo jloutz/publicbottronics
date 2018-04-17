@@ -1,0 +1,22 @@
+intents:
+  - greet
+  - ask_help
+  - want_help_info
+
+entities:
+  - dummy
+
+actions:
+  - utter_greet
+  - utter_howcanhelp
+  - provide_help_info
+
+templates:
+  utter_greet:
+  - text: "hallo!"
+
+  utter_howcanhelp:
+  - text: "wie kann ich helfen?"
+
+  provide_help_info:
+  - text: "Ich kann zum Kursnet beantworten. (todo)"

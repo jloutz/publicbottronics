@@ -1,0 +1,8 @@
+{
+  "project" : "infosys_cui",
+  "pipeline": "spacy_sklearn",
+  "path" : "./models",
+  "data" : "./data/nlu.md",
+  "language" : "de",
+  "fixed_model_name":"current"
+}
