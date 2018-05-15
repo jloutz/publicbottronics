@@ -1,22 +1,116 @@
 intents:
   - greet
+  - ask_about_publish
   - ask_help
-  - want_help_info
+  - inform
+  - affirm
+  - deny
 
 entities:
-  - dummy
+  - anz_kuerse
+  - change_freq
+
+slots:
+  anz_kuerse:
+    type: text
+  change_freq:
+    type: categorical
+    values:
+     - täglich
+     - wöchentlich
+     - monatlich
+     - selten
+  empfohlenes_kanal:
+    type: categorical
+    values:
+      - online
+      - xml
+  aufwand_ok:
+    type: categorical
+    values:
+      - ja
+      - nein
+  empfohlenes_verfahren:
+    type: categorical
+    values:
+      - selbst_xml
+      - selbst_online
+      - extern_xml
+      - redaktion
 
 actions:
   - utter_greet
-  - utter_howcanhelp
-  - provide_help_info
+  - utter_inform_publish
+  - utter_ask_num_courses
+  - utter_ask_change_freq
+  - utter_inform_help
+  - utter_recommend_online
+  - utter_recommend_xml
+  - utter_ask_aufwand_ok
+  - actions.ActionEvalEingabekanal
+  - actions.ActionEvalEingabeverfahren
+  - utter_recommend_extern
+  - utter_recommend_redaktion
+  - utter_acknowledge_affirm
+  - utter_acknowledge_deny
+  - utter_noch_fragen
+  - utter_how_help
+  - utter_did_not_understand
+  - utter_goodbye
+
 
 templates:
   utter_greet:
-  - text: "hallo!"
+  - text: "Haben Sie Fragen oder benötigen Sie Hilfe zum Veröffentlichen
+          von Ihren Bildungsangeboten in KURSNET? Ich kann helfen!"
 
-  utter_howcanhelp:
-  - text: "wie kann ich helfen?"
+  utter_inform_publish:
+  - text: "Es gibt ein Paar Optionen, Ihre Kurse zu veröffentlichen -
+   zum Beispiel Online Upload oder XML Upload.
+   Welche für Sie das Beste ist kommt auf Ihre Situation an"
 
-  provide_help_info:
-  - text: "Ich kann zum Kursnet beantworten. (todo)"
+  utter_ask_num_courses:
+  - text: "Wie viele Kurse wollen Sie veröffentlichen?"
+
+  utter_ask_change_freq:
+  - text: "Wie oft nehmen Sie Änderungen an den Kursen vor?"
+
+  utter_recommend_online:
+  - text: "Danke – bei dieser geringen Anzahl von Kursen empfiehlt sich das Online-Upload. Das könnte ein halbes Tag
+   pro Woche Aufwand für Sie oder Ihre Mitarbeiter bedeuten."
+
+  utter_recommend_xml:
+  - text: "OK Danke – bei dieser Anzahl von Kursen empfiehlt sich das XML-Upload.
+   Dazu brauchen Sie oder Ihre Mitarbeiter etwas IT-Kenntnis. Es kann am Anfang ein paar Tage in Anspruch nehmen den XML-Upload aufzusetzen, danach lauft es fast automatisch."
+
+  utter_ask_aufwand_ok:
+  - text: "Können Sie und Ihre Mitarbeiter diesen Aufwand stemmen?"
+
+  utter_recommend_extern:
+  - text: "Sie können hierzu einen externen Dienstleister oder Berater engagieren…"
+
+  utter_recommend_redaktion:
+  - text: "Sie können hierzu unsere Kursnet Redaktion in Anspruch nehmen..."
+
+
+  utter_acknowledge_affirm:
+  - text: "OK, Danke"
+  - text: "Super, Danke"
+
+  utter_acknowledge_deny:
+  - text: "OK, verstehe"
+
+  utter_noch_fragen:
+  - text: "Haben Sie noch Fragen?"
+
+  utter_how_help:
+  - text: "Wie kann ich helfen?"
+
+  utter_inform_help:
+  - text: "ich kann Ihnen zum folgenden Themen helfen... (todo)"
+
+  utter_did_not_understand:
+  - text: "Gefahr - Will Robinson"
+
+  utter_goodbye:
+  - text: "Auf Wiederhören!"
