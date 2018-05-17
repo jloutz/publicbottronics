@@ -5,7 +5,7 @@ from rasa_core.trackers import DialogueStateTracker
 
 class ActionEvalEingabekanal(Action):
     def name(self):
-        return "action_eval_eingabekanal"
+        return "ActionEvalEingabekanal"
 
     def run(self, dispatcher, tracker:DialogueStateTracker, domain):
         anz_kurs = tracker.get_slot("anz_kuerse")
@@ -20,16 +20,16 @@ class ActionEvalEingabekanal(Action):
 
 class ActionEvalEingabeverfahren(Action):
     def name(self):
-        return "action_eval_eingabeverfahren"
+        return "ActionEvalEingabeverfahren"
 
     def run(self, dispatcher, tracker:DialogueStateTracker, domain):
         kanal = tracker.get_slot("empfohlenes_kanal")
         auf_ok = tracker.get_slot("aufwand_ok")
         verfahren = "redaktion"
         if auf_ok == "ja":
-            verfahren = "selbst_"+kanal
+            verfahren = kanal
         elif auf_ok == "nein":
             if kanal == "xml":
-                verfahren = "extern_xml"
+                verfahren = "extern"
 
         return [SlotSet(key="empfohlenes_verfahren",value=verfahren)]

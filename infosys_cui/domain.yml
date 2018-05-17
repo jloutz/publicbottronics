@@ -1,6 +1,7 @@
 intents:
   - greet
-  - ask_about_publish
+  - need_help_general
+  - need_help_publish
   - ask_help
   - inform
   - affirm
@@ -40,12 +41,17 @@ slots:
 
 actions:
   - utter_greet
+  - utter_general_help
   - utter_inform_publish
+  - ask_start_questionaire_eingabeverfahren
+  - utter_start_questionaire_eingabeverfahren
   - utter_ask_num_courses
   - utter_ask_change_freq
   - utter_inform_help
   - utter_recommend_online
+  - utter_recommend_online_clarify
   - utter_recommend_xml
+  - utter_recommend_xml_clarify
   - utter_ask_aufwand_ok
   - actions.ActionEvalEingabekanal
   - actions.ActionEvalEingabeverfahren
@@ -61,13 +67,21 @@ actions:
 
 templates:
   utter_greet:
-  - text: "Haben Sie Fragen oder benötigen Sie Hilfe zum Veröffentlichen
-          von Ihren Bildungsangeboten in KURSNET? Ich kann helfen!"
+  - text: "Hallo!"
+
+  utter_general_help:
+  - text: "OK - zur Orientierung - Ich bin kein Mensch! Sondern ein Bot.
+  Ich kann Ihnen mit Ihren Belangen zum Kursnet helfen... Stellen Sie einfach ihre Frage."
 
   utter_inform_publish:
   - text: "Es gibt ein Paar Optionen, Ihre Kurse zu veröffentlichen -
-   zum Beispiel Online Upload oder XML Upload.
-   Welche für Sie das Beste ist kommt auf Ihre Situation an"
+   zum Beispiel Online Upload oder XML Upload."
+
+  ask_start_questionaire_eingabeverfahren:
+  - text: "Soll ich Ihnen helfen, das richtige Verfahren für Sie zu ermitteln?"
+
+  utter_start_questionaire_eingabeverfahren:
+  - text: "OK, dann stelle ich Ihnen ein paar Fragen.. "
 
   utter_ask_num_courses:
   - text: "Wie viele Kurse wollen Sie veröffentlichen?"
@@ -76,22 +90,27 @@ templates:
   - text: "Wie oft nehmen Sie Änderungen an den Kursen vor?"
 
   utter_recommend_online:
-  - text: "Danke – bei dieser geringen Anzahl von Kursen empfiehlt sich das Online-Upload. Das könnte ein halbes Tag
+  - text: "Bei dieser geringen Anzahl von Kursen empfiehlt sich das Online-Upload."
+
+  utter_recommend_online_clarify:
+   - text: "Das könnte ein halbes Tag
    pro Woche Aufwand für Sie oder Ihre Mitarbeiter bedeuten."
 
   utter_recommend_xml:
-  - text: "OK Danke – bei dieser Anzahl von Kursen empfiehlt sich das XML-Upload.
-   Dazu brauchen Sie oder Ihre Mitarbeiter etwas IT-Kenntnis. Es kann am Anfang ein paar Tage in Anspruch nehmen den XML-Upload aufzusetzen, danach lauft es fast automatisch."
+  - text: "Es empfiehlt sich das XML-Upload für Sie"
+
+  utter_recommend_xml_clarify:
+  - text: "Dazu brauchen Sie oder Ihre Mitarbeiter etwas IT-Kenntnis.
+   Es kann am Anfang ein paar Tage in Anspruch nehmen den XML-Upload aufzusetzen, danach lauft es fast automatisch."
 
   utter_ask_aufwand_ok:
   - text: "Können Sie und Ihre Mitarbeiter diesen Aufwand stemmen?"
 
   utter_recommend_extern:
-  - text: "Sie können hierzu einen externen Dienstleister oder Berater engagieren…"
+  - text: "Wir empfehlen, dass Sie einen externen IT Dienstleister engengieren um Ihre xml Kataloge zu erstellen und hochzuladen"
 
   utter_recommend_redaktion:
-  - text: "Sie können hierzu unsere Kursnet Redaktion in Anspruch nehmen..."
-
+  - text: "Wir empfehlen, Sie überlassen das Eingeben ihrer Kürse der Kursnet-Redaktion.."
 
   utter_acknowledge_affirm:
   - text: "OK, Danke"

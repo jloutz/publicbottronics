@@ -3,13 +3,38 @@
     - utter_greet
     > handle_user_query
 
-## how to publish
+## general help
+> handle_user_query
+* need_help_general
+    - utter_general_help
+    > handle_user_query
+
+## how to publish?
 > handle_user_query
 * ask_about_publish
     - utter_inform_publish
+    > ask_start_questionaire
+
+## ask start questionaire
+> ask_start_questionaire
+- ask_start_questionaire_eingabeverfahren
+> handle_answer_start_questionaire
+
+## handle answer start questionaire
+> handle_answer_start_questionaire
+* affirm
+    - utter_start_questionaire_eingabeverfahren
     - utter_ask_num_courses
     > handle_user_info
 
+## handle answer start questionaire
+> handle_answer_start_questionaire
+* deny
+    - utter_acknowledge_deny
+    - utter_noch_fragen
+    > handle_noch_fragen
+
+    
 ## num courses
 > handle_user_info
 * inform{"anz_kuerse":"29"}
@@ -19,47 +44,78 @@
 ## change freq
 > handle_user_info
 * inform{"change_freq":"wöchentlich"}
-    - action_eval_eingabekanal
+    - ActionEvalEingabekanal
     > eingabekanal_empfehlung
+
+## change freq
+> handle_user_info
+* inform{"change_freq":"täglich"}
+    - ActionEvalEingabekanal
+    > eingabekanal_empfehlung
+
+## change freq
+> handle_user_info
+* inform{"change_freq":"monatlich"}
+    - ActionEvalEingabekanal
+    > eingabekanal_empfehlung
+
+## change freq
+> handle_user_info
+* inform{"change_freq":"selten"}
+    - ActionEvalEingabekanal
+    > eingabekanal_empfehlung
+
 
 ## recommend kanal
 > eingabekanal_empfehlung{"empfohlenes_kanal":"online"}
   - utter_recommend_online
+  - utter_recommend_online_clarify
   - utter_ask_aufwand_ok
   > handle_user_info
 
 ## recommend kanal
 > eingabekanal_empfehlung{"empfohlenes_kanal":"xml"}
   - utter_recommend_xml
+  - utter_recommend_xml_clarify
   - utter_ask_aufwand_ok
   > handle_user_info
 
 ## aufwand ok
 > handle_user_info
 * inform("aufwand_ok":"ja")
-  - utter_acknowledge_affirm
-  - action_eval_eingabeverfahren
-  - utter_noch_fragen
-  > handle_noch_fragen
+  - ActionEvalEingabeverfahren
+  > recommend_verfahren
 
 ## aufwand nok
 > handle_user_info
 * inform("aufwand_ok":"nein")
-  - utter_acknowledge_deny
-  - action_eval_eingabeverfahren
+  - ActionEvalEingabeverfahren
   > recommend_verfahren
 
 ## recommend verfahren
-> recommend_verfahren{"empfohlenes_kanal":"xml"}
+> recommend_verfahren{"empfohlenes_verfahren":"xml"}
+  - utter_recommend_xml
+  - utter_noch_fragen
+  > handle_noch_fragen
+
+## recommend verfahren
+> recommend_verfahren{"empfohlenes_verfahren":"online"}
+  - utter_recommend_online
+  - utter_noch_fragen
+  > handle_noch_fragen
+
+## recommend verfahren
+> recommend_verfahren{"empfohlenes_verfahren":"extern"}
   - utter_recommend_extern
   - utter_noch_fragen
   > handle_noch_fragen
 
 ## recommend verfahren
-> recommend_verfahren{"empfohlenes_kanal":"online"}
+> recommend_verfahren{"empfohlenes_verfahren":"redaktion"}
   - utter_recommend_redaktion
   - utter_noch_fragen
   > handle_noch_fragen
+
 
 ## handle noch fragen
 > handle_noch_fragen
@@ -78,283 +134,133 @@
 * ask_help
   - utter_inform_help
   > handle_user_query
-  
-  ## Generated Story -3374585848858322144
-* greet
-    - utter_greet
-* ask_about_publish
-    - utter_inform_publish
-    - utter_ask_num_courses
-* inform{"anz_kuerse": "51"}
-    - slot{"anz_kuerse": "51"}
-    - utter_ask_change_freq
-* inform{"change_freq": "w\u00f6chentlich"}
-    - slot{"change_freq": "w\u00f6chentlich"}
-    - action_eval_eingabekanal
-    - slot{"empfohlenes_kanal": "xml"}
-    - utter_recommend_xml
-    - utter_ask_aufwand_ok
-* inform{"aufwand_ok": "ja"}
-    - slot{"aufwand_ok": "ja"}
-    - utter_acknowledge_affirm
-    - action_eval_eingabeverfahren
-    - slot{"empfohlenes_verfahren": "selbst_xml"}
-    - utter_noch_fragen
-* deny
-    - utter_acknowledge_affirm
-    - utter_goodbye
 
-## Generated Story 6828230246724744411
+## need help no questionaire
 * greet
     - utter_greet
+* need_help_general
+    - utter_general_help 
 * ask_about_publish
-    - utter_inform_publish
-    - utter_ask_num_courses
-* inform{"anz_kuerse": "22"}
-    - slot{"anz_kuerse": "22"}
-    - utter_ask_change_freq
-* inform{"change_freq": "monatlich"}
-    - slot{"change_freq": "monatlich"}
-    - action_eval_eingabekanal
-    - slot{"empfohlenes_kanal": "online"}
-    - utter_recommend_online
-    - utter_ask_aufwand_ok
-* inform{"aufwand_ok": "ja"}
-    - slot{"aufwand_ok": "ja"}
-    - utter_acknowledge_affirm
-    - action_eval_eingabeverfahren
-    - slot{"empfohlenes_verfahren": "selbst_online"}
-    - utter_noch_fragen
+   - utter_inform_publish
+   - ask_start_questionaire_eingabeverfahren
 * deny
-    - utter_acknowledge_affirm
-    - utter_goodbye
+    - utter_acknowledge_deny
+    - utter_noch_fragen
+    > handle_noch_fragen
 
-## Generated Story 6828230246724744411
+## need help start questionaire
 * greet
     - utter_greet
+* need_help_general
+    - utter_general_help 
 * ask_about_publish
-    - utter_inform_publish
-    - utter_ask_num_courses
-* inform{"anz_kuerse": "40"}
-    - slot{"anz_kuerse": "40"}
-    - utter_ask_change_freq
-* inform{"change_freq": "wöchentlich"}
-    - slot{"change_freq": "wöchentlich"}
-    - action_eval_eingabekanal
-    - slot{"empfohlenes_kanal": "online"}
-    - utter_recommend_online
-    - utter_ask_aufwand_ok
-* inform{"aufwand_ok": "ja"}
-    - slot{"aufwand_ok": "ja"}
-    - utter_acknowledge_affirm
-    - action_eval_eingabeverfahren
-    - slot{"empfohlenes_verfahren": "selbst_online"}
-    - utter_noch_fragen
-* deny
-    - utter_acknowledge_affirm
-    - utter_goodbye
-    
-## Generated Story 6828230246724744411
-* greet
-    - utter_greet
-* ask_about_publish
-    - utter_inform_publish
-    - utter_ask_num_courses
-* inform{"anz_kuerse": "19"}
-    - slot{"anz_kuerse": "19"}
-    - utter_ask_change_freq
-* inform{"change_freq": "täglich"}
-    - slot{"change_freq": "täglich"}
-    - action_eval_eingabekanal
-    - slot{"empfohlenes_kanal": "online"}
-    - utter_recommend_online
-    - utter_ask_aufwand_ok
-* inform{"aufwand_ok": "ja"}
-    - slot{"aufwand_ok": "ja"}
-    - utter_acknowledge_affirm
-    - action_eval_eingabeverfahren
-    - slot{"empfohlenes_verfahren": "selbst_online"}
-    - utter_noch_fragen
-* deny
-    - utter_acknowledge_affirm
-    - utter_goodbye
-
-## Generated Story 6828230246724744411
-* greet
-    - utter_greet
-* ask_about_publish
-    - utter_inform_publish
+   - utter_inform_publish
+   - ask_start_questionaire_eingabeverfahren
+* affirm
+    - utter_start_questionaire_eingabeverfahren
     - utter_ask_num_courses
 * inform{"anz_kuerse": "30"}
     - slot{"anz_kuerse": "30"}
     - utter_ask_change_freq
-* inform{"change_freq": "täglich"}
-    - slot{"change_freq": "täglich"}
-    - action_eval_eingabekanal
+* inform{"change_freq": "wöchentlich"}
+    - slot{"change_freq": "wöchentlich"}
+    - ActionEvalEingabekanal
     - slot{"empfohlenes_kanal": "online"}
     - utter_recommend_online
+    - utter_recommend_online_clarify
     - utter_ask_aufwand_ok
 * inform{"aufwand_ok": "ja"}
     - slot{"aufwand_ok": "ja"}
-    - utter_acknowledge_affirm
-    - action_eval_eingabeverfahren
-    - slot{"empfohlenes_verfahren": "selbst_online"}
-    - utter_noch_fragen
-* deny
-    - utter_acknowledge_affirm
-    - utter_goodbye
-
-
-## low volume aufwand nok
-* greet
-    - utter_greet
-* ask_about_publish
-    - utter_inform_publish
-    - utter_ask_num_courses
-* inform{"anz_kuerse": "20"}
-    - slot{"anz_kuerse": "20"}
-    - utter_ask_change_freq
-* inform{"change_freq": "monatlich"}
-    - slot{"change_freq": "monatlich"}
-    - action_eval_eingabekanal
-    - slot{"empfohlenes_kanal": "online"}
+    - ActionEvalEingabeverfahren
+    - slot{"empfohlenes_verfahren": "online"}
     - utter_recommend_online
-    - utter_ask_aufwand_ok
-* inform{"aufwand_ok": "nein"}
-    - slot{"aufwand_ok": "nein"}
-    - utter_acknowledge_deny
-    - action_eval_eingabeverfahren
-    - slot{"empfohlenes_verfahren": "redaktion"}
-    - utter_recommend_redaktion
     - utter_noch_fragen
 * deny
     - utter_acknowledge_affirm
     - utter_goodbye
 
-## low volume aufwand nok 2
+## low volume aufwand ok
 * greet
     - utter_greet
 * ask_about_publish
     - utter_inform_publish
+    - ask_start_questionaire_eingabeverfahren
+* affirm
+    - utter_start_questionaire_eingabeverfahren
     - utter_ask_num_courses
-* inform{"anz_kuerse": "5"}
-    - slot{"anz_kuerse": "5"}
+* inform{"anz_kuerse": "30"}
+    - slot{"anz_kuerse": "30"}
     - utter_ask_change_freq
 * inform{"change_freq": "wöchentlich"}
     - slot{"change_freq": "wöchentlich"}
-    - action_eval_eingabekanal
+    - ActionEvalEingabekanal
     - slot{"empfohlenes_kanal": "online"}
     - utter_recommend_online
+    - utter_recommend_online_clarify
     - utter_ask_aufwand_ok
-* inform{"aufwand_ok": "nein"}
-    - slot{"aufwand_ok": "nein"}
-    - utter_acknowledge_deny
-    - action_eval_eingabeverfahren
-    - slot{"empfohlenes_verfahren": "redaktion"}
-    - utter_recommend_redaktion
+* inform{"aufwand_ok": "ja"}
+    - slot{"aufwand_ok": "ja"}
+    - ActionEvalEingabeverfahren
+    - slot{"empfohlenes_verfahren": "online"}
+    - utter_recommend_online
     - utter_noch_fragen
 * deny
     - utter_acknowledge_affirm
     - utter_goodbye
 
-## low volume aufwand nok 2
+## low volume aufwand nok 
 * greet
     - utter_greet
 * ask_about_publish
     - utter_inform_publish
+    - ask_start_questionaire_eingabeverfahren
+* affirm
+    - utter_start_questionaire_eingabeverfahren
     - utter_ask_num_courses
-* inform{"anz_kuerse": "15"}
-    - slot{"anz_kuerse": "15"}
+* inform{"anz_kuerse": "30"}
+    - slot{"anz_kuerse": "30"}
+    - utter_ask_change_freq
+* inform{"change_freq": "wöchentlich"}
+    - slot{"change_freq": "wöchentlich"}
+    - ActionEvalEingabekanal
+    - slot{"empfohlenes_kanal": "online"}
+    - utter_recommend_online
+    - utter_recommend_online_clarify
+    - utter_ask_aufwand_ok
+* inform{"aufwand_ok": "nein"}
+    - slot{"aufwand_ok": "nein"}
+    - ActionEvalEingabeverfahren
+    - slot{"empfohlenes_verfahren": "redaktion"}
+    - utter_recommend_redaktion
+    - utter_noch_fragen
+* affirm
+    - utter_how_help
+    > handle_user_query
+
+
+## high volume aufwand nok 2
+* greet
+    - utter_greet
+* ask_about_publish
+    - utter_inform_publish
+    - ask_start_questionaire_eingabeverfahren
+* affirm
+    - utter_start_questionaire_eingabeverfahren
+    - utter_ask_num_courses
+* inform{"anz_kuerse": "60"}
+    - slot{"anz_kuerse": "60"}
     - utter_ask_change_freq
 * inform{"change_freq": "täglich"}
     - slot{"change_freq": "täglich"}
-    - action_eval_eingabekanal
-    - slot{"empfohlenes_kanal": "online"}
-    - utter_recommend_online
+    - ActionEvalEingabekanal
+    - slot{"empfohlenes_kanal": "xml"}
+    - utter_recommend_xml
+    - utter_recommend_xml_clarify
     - utter_ask_aufwand_ok
 * inform{"aufwand_ok": "nein"}
     - slot{"aufwand_ok": "nein"}
-    - utter_acknowledge_deny
-    - action_eval_eingabeverfahren
-    - slot{"empfohlenes_verfahren": "redaktion"}
-    - utter_recommend_redaktion
-    - utter_noch_fragen
-* deny
-    - utter_acknowledge_affirm
-    - utter_goodbye
-
-    
-## Generated Story 8542725125810336708
-* greet
-    - utter_greet
-* ask_about_publish
-    - utter_inform_publish
-    - utter_ask_num_courses
-* inform{"anz_kuerse": "100"}
-    - slot{"anz_kuerse": "100"}
-    - utter_ask_change_freq
-* inform{"change_freq": "t\u00e4glich"}
-    - slot{"change_freq": "t\u00e4glich"}
-    - action_eval_eingabekanal
-    - slot{"empfohlenes_kanal": "xml"}
-    - utter_recommend_xml
-    - utter_ask_aufwand_ok
-* inform{"aufwand_ok": "ja"}
-    - slot{"aufwand_ok": "ja"}
-    - utter_acknowledge_affirm
-    - action_eval_eingabeverfahren
-    - slot{"empfohlenes_verfahren": "selbst_xml"}
-    - utter_noch_fragen
-* deny
-    - utter_acknowledge_affirm
-    - utter_goodbye
-
-## Generated Story 8542725125810336708
-* greet
-    - utter_greet
-* ask_about_publish
-    - utter_inform_publish
-    - utter_ask_num_courses
-* inform{"anz_kuerse": "51"}
-    - slot{"anz_kuerse": "51"}
-    - utter_ask_change_freq
-* inform{"change_freq": "t\u00e4glich"}
-    - slot{"change_freq": "t\u00e4glich"}
-    - action_eval_eingabekanal
-    - slot{"empfohlenes_kanal": "xml"}
-    - utter_recommend_xml
-    - utter_ask_aufwand_ok
-* inform{"aufwand_ok": "ja"}
-    - slot{"aufwand_ok": "ja"}
-    - utter_acknowledge_affirm
-    - action_eval_eingabeverfahren
-    - slot{"empfohlenes_verfahren": "selbst_xml"}
-    - utter_noch_fragen
-* deny
-    - utter_acknowledge_affirm
-    - utter_goodbye
-
-
-## high volume aufwand nok
-* greet
-    - utter_greet
-* ask_about_publish
-    - utter_inform_publish
-    - utter_ask_num_courses
-* inform{"anz_kuerse": "100"}
-    - slot{"anz_kuerse": "100"}
-    - utter_ask_change_freq
-* inform{"change_freq": "t\u00e4glich"}
-    - slot{"change_freq": "t\u00e4glich"}
-    - action_eval_eingabekanal
-    - slot{"empfohlenes_kanal": "xml"}
-    - utter_recommend_xml
-    - utter_ask_aufwand_ok
-* inform{"aufwand_ok": "nein"}
-    - slot{"aufwand_ok": "nein"}
-    - utter_acknowledge_deny
-    - action_eval_eingabeverfahren
-    - slot{"empfohlenes_verfahren": "extern_xml"}
+    - ActionEvalEingabeverfahren
+    - slot{"empfohlenes_verfahren": "extern"}
     - utter_recommend_extern
     - utter_noch_fragen
 * deny
@@ -366,52 +272,54 @@
     - utter_greet
 * ask_about_publish
     - utter_inform_publish
-    - utter_ask_num_courses
-* inform{"anz_kuerse": "76"}
-    - slot{"anz_kuerse": "76"}
-    - utter_ask_change_freq
-* inform{"change_freq": "wöchentlich"}
-    - slot{"change_freq": "wöchentlich"}
-    - action_eval_eingabekanal
-    - slot{"empfohlenes_kanal": "xml"}
-    - utter_recommend_xml
-    - utter_ask_aufwand_ok
-* inform{"aufwand_ok": "nein"}
-    - slot{"aufwand_ok": "nein"}
-    - utter_acknowledge_deny
-    - action_eval_eingabeverfahren
-    - slot{"empfohlenes_verfahren": "extern_xml"}
-    - utter_recommend_extern
-    - utter_noch_fragen
-* deny
-    - utter_acknowledge_affirm
-    - utter_goodbye
-    
-## high volume aufwand nok 2
-* greet
-    - utter_greet
-* ask_about_publish
-    - utter_inform_publish
+    - ask_start_questionaire_eingabeverfahren
+* affirm
+    - utter_start_questionaire_eingabeverfahren
     - utter_ask_num_courses
 * inform{"anz_kuerse": "60"}
     - slot{"anz_kuerse": "60"}
     - utter_ask_change_freq
 * inform{"change_freq": "wöchentlich"}
     - slot{"change_freq": "wöchentlich"}
-    - action_eval_eingabekanal
+    - ActionEvalEingabekanal
     - slot{"empfohlenes_kanal": "xml"}
     - utter_recommend_xml
+    - utter_recommend_xml_clarify
     - utter_ask_aufwand_ok
 * inform{"aufwand_ok": "nein"}
     - slot{"aufwand_ok": "nein"}
-    - utter_acknowledge_deny
-    - action_eval_eingabeverfahren
-    - slot{"empfohlenes_verfahren": "extern_xml"}
+    - ActionEvalEingabeverfahren
+    - slot{"empfohlenes_verfahren": "extern"}
     - utter_recommend_extern
     - utter_noch_fragen
-* deny
-    - utter_acknowledge_affirm
-    - utter_goodbye
+    > handle_noch_fragen
 
-
+## high volume aufwand ok
+* greet
+    - utter_greet
+* ask_about_publish
+    - utter_inform_publish
+    - ask_start_questionaire_eingabeverfahren
+* affirm
+    - utter_start_questionaire_eingabeverfahren
+    - utter_ask_num_courses
+* inform{"anz_kuerse": "100"}
+    - slot{"anz_kuerse": "100"}
+    - utter_ask_change_freq
+* inform{"change_freq": "täglich"}
+    - slot{"change_freq": "täglich"}
+    - ActionEvalEingabekanal
+    - slot{"empfohlenes_kanal": "xml"}
+    - utter_recommend_xml
+    - utter_recommend_xml_clarify
+    - utter_ask_aufwand_ok
+* inform{"aufwand_ok": "ja"}
+    - slot{"aufwand_ok": "ja"}
+    - ActionEvalEingabeverfahren
+    - slot{"empfohlenes_verfahren": "xml"}
+    - utter_recommend_xml
+    - utter_noch_fragen
+* affirm
+    - utter_how_help
+    > handle_user_query
 

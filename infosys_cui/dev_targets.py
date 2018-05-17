@@ -1,6 +1,11 @@
 import json
 import sys
 import os
+
+from rasa_core.agent import Agent
+from rasa_core.channels.console import ConsoleInputChannel
+from rasa_core.interpreter import RasaNLUInterpreter, RegexInterpreter
+from rasa_core.policies.keras_policy import KerasPolicy
 from rasa_nlu.model import Interpreter
 from rasa_nlu.converters import load_data
 from rasa_nlu.config import RasaNLUConfig
@@ -23,10 +28,30 @@ def do_nlu_eval(txt):
     return interpreter.parse(txt)
 
 
-def train_dialog(online=False):
-    from rasa_core.train import train_dialogue_model
-    train_dialogue_model("domain.yml", "data\stories.md", "models\dialog",use_online_learning=online, nlu_model_path="models/infosys_cui/current",
-                         kwargs={"epochs": 300})
+def train_dialog(online=False,nlu=False,policies = [KerasPolicy()]):
+    agent = Agent("domain.yml", policies=policies)
+    stories = "data\stories.md"
+    output_path = "models\dialog"
+    if online:
+        if nlu:
+            agent.interpreter = RasaNLUInterpreter("models/infosys_cui/current")
+        else:
+            agent.interpreter = RegexInterpreter()
+        agent.train_online(
+                stories,
+                input_channel=ConsoleInputChannel(),
+                epochs=10,
+                model_path=output_path)
+    else:
+        kwargs = {"epochs": 300}
+        agent.train(
+                stories,
+                validation_split=0.1,
+                **kwargs
+        )
+
+    agent.persist(output_path)
+
 
 def run():
     from rasa_core.run import main
